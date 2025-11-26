@@ -1,3 +1,8 @@
+body{
+  margin: auto;
+  display: block;
+  background-color: lime;
+}
 .wheel {
   border: 2px solid black;
   border-radius: 50%;
@@ -99,7 +104,6 @@
   100% {
     transform: rotate(-360deg);
   }
-/*
 button{
   text-align: center;
   padding: 12px;
@@ -108,5 +112,18 @@ button{
   color: white;
   background-color: teal;
   font-size: 16px;
+  margin-top: 50%;
+  margin-left: 50%;
+  transition: 0.3s ease-in-out;
 }
-*/
+button:hover{
+  background-color: grey;
+  color: gold;
+  cursor: pointer;
+  transform: scale(1.5);
+}
+button:visited{
+  cursor: notallowed;
+  color: white;
+  background-color: grey;
+}
